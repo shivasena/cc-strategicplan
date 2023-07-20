@@ -19,11 +19,15 @@ Before you begin, ensure that you have the following:
 
 1. Clone the repository to your local machine using the following command:
 
+```
 $ git clone https://github.com/shivasena/cc-strategicplan.git
+```
 
 2. Navigate to the project directory:
 
+```
 $ cd cc-strategicplan
+```
 
 3. Make the necessary changes to the website files using your preferred text editor.
 
@@ -34,9 +38,11 @@ $ cd cc-strategicplan
 
 5. Once you are satisfied with the changes, commit and push them to the repository:
 
+```
 $ git add .
 $ git commit -m "Describe the changes you made"
 $ git push
+```
 
 6. Visit the repository on GitHub: [https://github.com/shivasena/cc-strategicplan](https://github.com/shivasena/cc-strategicplan).
 
