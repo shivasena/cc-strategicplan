@@ -1,0 +1,104 @@
+﻿#page-footer {
+
+	&-logos {
+		opacity: 0;
+		padding-top: 10vh;
+		padding-bottom: 10vh;
+
+		&.active {
+			animation: fade-in 1s ease-in-out;
+			animation-iteration-count: 1;
+			animation-fill-mode: both;
+		}
+	}
+
+	&-sep {
+		position: relative;
+		z-index: 1;
+		height: 10vh;
+		background: url('../images/bg-footer.jpg') no-repeat bottom center;
+
+		@media (min-width: 1920px) {
+			background-size: 100% auto;
+		}
+
+		.container {
+			position: relative;
+			height: 100%;
+		}
+
+		.strategic-plan-dots {
+			top: 50%;
+			left: 25%;
+			bottom: 0;
+			width: 50%;
+			transform: translate(0,-50%);
+
+			.dot {
+				position: relative;
+			}
+		}
+	}
+
+	&-links {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding-top: 10vh;
+		padding-bottom: 10vh;
+		color: #fff;
+		background: $blue;
+		background-size: 100% auto;
+		text-align: center;
+
+		a {
+			color: #fff;
+		}
+
+		.link {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			text-decoration: none;
+			font-size: calc(20px + 2vw);
+			font-family: $font-family-semibold;
+			font-weight: 600;
+
+			& + a {
+				margin-top: 5vh;
+			}
+
+			img {
+				margin-top: 1rem;
+				animation: pulse 2s;
+				animation-iteration-count: infinite;
+				transition: 1s ease-in-out;
+				max-width: 120px;
+			}
+
+			&:hover,
+			&:focus {
+				img {
+					animation: 0;
+					transform: scale(1.15);
+				}
+			}
+		}
+
+		p {
+			margin-top: 8vh;
+		}
+	}
+
+	.strategic-plan-pillars {
+
+		.pillar-line {
+			img {
+				transform: rotate(180deg);
+			}
+		}
+	}
+}

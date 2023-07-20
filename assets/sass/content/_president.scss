@@ -1,0 +1,72 @@
+﻿#president {
+	position: relative;
+	color: $blue;
+
+	&-bg {
+		position: absolute;
+		z-index: 1;
+		right: 0;
+		top: 10vw;
+		max-width: 50%;
+		height: 100%;
+		object-fit: contain;
+		object-position: right top;
+
+		@media (min-width: 600px) {
+			height: 130%;
+		}
+
+		@media (min-width: 768px) {
+			top: 0;
+			max-width: 60%;
+		}
+	}
+
+	&-content {
+		position: relative;
+		z-index: 2;
+		opacity: 0;
+
+		.active & {
+			animation: fade-in 1s;
+			animation-fill-mode: both;
+		}
+
+		&-top {
+			max-width: 50%;
+			padding-top: 10vh;
+			padding-bottom: 10vh;
+
+			@media (min-width: 768px) {
+				max-width: 26rem;
+				padding-bottom: 0;
+			}
+
+			h2 {
+				@media (max-width: 599px) {
+					font-size: 1.5rem;
+				}
+			}
+		}
+
+		&-bottom {
+			@media (min-width: 768px) {
+				max-width: 26rem;
+			}
+		}
+	}
+
+	&-signature {
+		margin-top: 2rem;
+		font-size: 1.25em;
+
+		img {
+			width: 50%;
+			max-width: 480px;
+		}
+		
+		@media (max-width: 599px) {
+			font-size: 1.5em;
+		}
+	}
+}

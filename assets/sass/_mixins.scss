@@ -1,0 +1,12 @@
+﻿@mixin pillar($color-name, $color-var) {
+
+	.pillar {
+		&-heading {
+			color: $color-var;
+		}
+
+		&-intro {
+			background-image: url('../images/pillar-intro-#{$color-name}.png');
+		}
+	}
+}

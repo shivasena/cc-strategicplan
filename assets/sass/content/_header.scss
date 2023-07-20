@@ -1,0 +1,76 @@
+﻿#page-header {
+
+	.logo-confederation-college {
+		animation: fade-in 1s;
+		animation-iteration-count: 1;
+		animation-fill-mode: both;
+	}
+
+	.kaa-anokaatekin-title {
+		animation: slide-ltr-fade 1s;
+		animation-iteration-count: 1;
+		animation-fill-mode: both;
+		animation-delay: 1s;
+	}
+
+	.kaa-anokaatekin-subtitle {
+		animation: slide-rtl-fade 1s;
+		animation-iteration-count: 1;
+		animation-fill-mode: both;
+		animation-delay: 1.5s;
+	}
+
+	.strategic-plan-pillars {
+
+		.pillar-line {
+			animation: slide-btt-fade 1.5s ease-out;
+			animation-iteration-count: 1;
+			animation-fill-mode: both;
+			// teal
+			animation-delay: 2.65s;
+
+			img {
+				transform: rotate(180deg);
+			}
+			// yellow
+			+ .pillar-line {
+				animation-delay: 2.55s;
+				// salmon
+				& + .pillar-line {
+					animation-delay: 2.5s;
+					// red
+					& + .pillar-line {
+						animation-delay: 2.65s;
+					}
+				}
+			}
+		}
+	}
+
+	.strategic-plan-top {
+		animation: explode 1.5s;
+		animation-iteration-count: 1;
+		animation-fill-mode: both;
+		animation-delay: 3.8s;
+	}
+
+
+	#link-to-new-report a {
+		text-align: center;
+		text-decoration: none;
+		color: #0374a6;
+	}
+
+	#link-to-new-report h3, h5 {
+		font-family: Campton-Book;
+		margin: 5px 0;
+		z-index: 99;
+		position: relative;
+	}
+
+	#link-to-new-report h5 {
+		animation: pulse 2s;
+		animation-iteration-count: infinite;
+		transition: 1s ease-in-out;
+	}
+}
