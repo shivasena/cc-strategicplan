@@ -2,11 +2,11 @@
 
 This repository contains the source code for the Strategic Plan mini website for Confederation College. The website is hosted on Netlify.
 
-## Repository Link
+## Repository and Website Links
 
-- [https://github.com/shivasena/cc-strategicplan](https://github.com/shivasena/cc-strategicplan)
-- [Confederation College Main Website](https://www.confederationcollege.ca) - Link to Confederation College's main website.
-- [Miniwebsite Address](https://strategicplan.confederationcollege.ca) - Link to the miniwebsite.
+- Repository: [https://github.com/shivasena/cc-strategicplan](https://github.com/shivasena/cc-strategicplan)
+- Confederation College Main Website: [https://www.confederationcollege.ca](https://www.confederationcollege.ca)
+- Miniwebsite: [https://strategicplan.confederationcollege.ca](https://strategicplan.confederationcollege.ca)
 
 ## Prerequisites
 
