@@ -4,7 +4,9 @@ This repository contains the source code for the Strategic Plan mini website for
 
 ## Repository Link
 
-[https://github.com/shivasena/cc-strategicplan](https://github.com/shivasena/cc-strategicplan)
+- [https://github.com/shivasena/cc-strategicplan](https://github.com/shivasena/cc-strategicplan)
+- [Confederation College Main Website](https://www.confederationcollege.ca) - Link to Confederation College's main website.
+- [Miniwebsite Address](https://strategicplan.confederationcollege.ca) - Link to the miniwebsite.
 
 ## Prerequisites
 
